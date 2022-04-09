@@ -11,7 +11,7 @@ Public Class FacebookForm
 
     Dim myFriendList As New FriendList
 
-    Private Const AppId As String = "1595853850741560"
+    Private Const AppId As String = ""
     Private Const ExtendedPermissions As String = "publish_actions"
 
     'Private Const AppSecretId As String = "c62e83d720dff604af80baa8703498f2"

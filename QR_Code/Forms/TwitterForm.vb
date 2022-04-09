@@ -4,11 +4,11 @@ Option Explicit On
 
 Public Class TwitterForm
 
-    Private Const ConsumerKey As String = "MRqorY8N2WBpqRnCHyvAGsy5e"
-    Private Const ConsumerSecret As String = "1SOa8U0oBhR15NN0xCDHnCQsuIGBmZN5RPMfDgKLtRjSpF32iS"
+    Private Const ConsumerKey As String = ""
+    Private Const ConsumerSecret As String = ""
 
-    Private Const AccessToken As String = "727797273007149056-LrVBp50rTQCXHtHRbeHDYAEBHpW4WM4"
-    Private Const AccessSecret As String = "IWmezgIz94HfvIUMy7NvyJOj3LAMnDudXbHwemEt249JC"
+    Private Const AccessToken As String = ""
+    Private Const AccessSecret As String = ""
 
 
     Private Sub mlUpload_Click(sender As Object, e As EventArgs) Handles mlUpload.Click
