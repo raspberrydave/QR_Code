@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9386FC1-9F86-4DCA-BB32-D8A21488159E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>QR_Code</RootNamespace>
+    <AssemblyName>QR_Code</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QR_Code.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QR_Code.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>res\Icons8-Windows-8-Ecommerce-Qr-Code.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gma.QrCodeNet.Encoding.Net35, Version=0.4.0.0, Culture=neutral, PublicKeyToken=e8a75d24b142be49, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\Gma.QrCodeNet.Encoding.Net35.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>Resources\GMap.NET.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>Resources\GMap.NET.WindowsForms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Config.vb" />
+    <Compile Include="Classes\FriendList.vb" />
+    <Compile Include="Classes\OAuthBase.vb" />
+    <Compile Include="Classes\RegexHelper.vb" />
+    <Compile Include="Classes\StyleHelper.vb" />
+    <Compile Include="Forms\AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreditsForm.Designer.vb">
+      <DependentUpon>CreditsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreditsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FacebookForm.Designer.vb">
+      <DependentUpon>FacebookForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FacebookForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EmailForm.Designer.vb">
+      <DependentUpon>EmailForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EmailForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\MAPI.vb" />
+    <Compile Include="Forms\MapAddressForm.Designer.vb">
+      <DependentUpon>MapAddressForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MapAddressForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TwitterForm.Designer.vb">
+      <DependentUpon>TwitterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TwitterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Network.vb" />
+    <Compile Include="Classes\QR.vb" />
+    <Compile Include="Forms\QrForm.Designer.vb">
+      <DependentUpon>QrForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QrForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="Classes\Simple3Des.vb" />
+    <Compile Include="UserControls\LineSeparator.Designer.vb">
+      <DependentUpon>LineSeparator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LineSeparator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\myColorPicker.Designer.vb">
+      <DependentUpon>myColorPicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\myColorPicker.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreditsForm.resx">
+      <DependentUpon>CreditsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FacebookForm.resx">
+      <DependentUpon>FacebookForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmailForm.resx">
+      <DependentUpon>EmailForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MapAddressForm.resx">
+      <DependentUpon>MapAddressForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TwitterForm.resx">
+      <DependentUpon>TwitterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QrForm.resx">
+      <DependentUpon>QrForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\myColorPicker.resx">
+      <DependentUpon>myColorPicker.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="res\1456197277_FTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\square-twitter_64.png" />
+    <None Include="res\CloudUpload_64.png" />
+    <None Include="res\ArrowRight_48.png" />
+    <None Include="res\Off_64.png" />
+    <None Include="res\square-facebook_128.png" />
+    <None Include="res\square-facebook_64.png" />
+    <None Include="res\search-lookup-glyph_24.png" />
+    <None Include="res\search-lookup-glyph_32.png" />
+    <None Include="res\1460938015_Working_Tools_2.png" />
+    <None Include="res\1460935292_menu-alt.png" />
+    <None Include="res\1460309282_geolocation.png" />
+    <None Include="res\card_128.png" />
+    <None Include="res\card_64.png" />
+    <None Include="res\wifi_128.png" />
+    <None Include="res\wifi_64.png" />
+    <None Include="res\phone_128.png" />
+    <None Include="res\phone_64.png" />
+    <None Include="res\Event_128.png" />
+    <None Include="res\event_64.png" />
+    <None Include="res\email_128.png" />
+    <None Include="res\email_64.png" />
+    <None Include="res\Text_64.png" />
+    <None Include="res\world_128.png" />
+    <None Include="res\world_64.png" />
+    <None Include="res\1459370524_SMS.png" />
+    <None Include="Resources\GMap.NET.WindowsForms.dll" />
+    <None Include="Resources\GMap.NET.Core.dll" />
+    <None Include="Resources\dexter.wav" />
+    <None Include="res\Icons8-Windows-8-Ecommerce-Qr-Code.ico" />
+    <None Include="Resources\MetroFramework.Fonts.dll" />
+    <None Include="Resources\MetroFramework.dll" />
+    <None Include="Resources\MetroFramework.Design.dll" />
+    <Content Include="Icons8-Windows-8-Ecommerce-Qr-Code.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gma.QrCodeNet.Encoding.Net35.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

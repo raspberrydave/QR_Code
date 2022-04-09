@@ -1,0 +1,290 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QR_Code
+</name>
+</assembly>
+<members>
+<member name="T:QR_Code.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources._1456197277_FTP">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources._1459370524_SMS">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources._1460309282_geolocation">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources._1460935292_menu_alt">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources._1460938015_Working_Tools_2">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.ArrowRight_48">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.card_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.card_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.CloudUpload_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.email_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.email_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.Event_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.event_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.Gma_QrCodeNet_Encoding_Net35">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.GMap_NET_Core">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.GMap_NET_WindowsForms">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.MetroFramework_Fonts">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.Off_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.phone_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.phone_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.search_lookup_glyph_24">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.search_lookup_glyph_32">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.square_facebook_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.square_facebook_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.square_twitter_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.text_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.wifi_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.wifi_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.world_128">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.My.Resources.Resources.world_64">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QR_Code.Config.Instance">
+ <summary>
+ Singleton
+ </summary>
+ <returns>Instance of Config Class</returns>
+</member>
+<member name="T:QR_Code.OAuthBase.SignatureTypes">
+ <summary>
+ Provides a predefined set of algorithms that are supported officially by the protocol
+ </summary>
+</member>
+<member name="T:QR_Code.OAuthBase.QueryParameter">
+ <summary>
+ Provides an internal structure to sort the query parameter
+ </summary>
+</member>
+<member name="T:QR_Code.OAuthBase.QueryParameterComparer">
+ <summary>
+ Comparer class used to perform the sorting of the query parameters
+ </summary>
+</member>
+<member name="M:QR_Code.OAuthBase.ComputeHash(System.Security.Cryptography.HashAlgorithm,System.String)">
+ <summary>
+ Helper function to compute a hash value
+ </summary>
+ <param name="hashAlgorithm">The hashing algoirhtm used. If that algorithm needs some initialization, like HMAC and its derivatives, they should be initialized prior to passing it to this function</param>
+ <param name="data">The data to hash</param>
+ <returns>a Base64 string of the hash value</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GetQueryParameters(System.String)">
+ <summary>
+ Internal function to cut out all non oauth query string parameters (all parameters not begining with "oauth_")
+ </summary>
+ <param name="parameters">The query string part of the Url</param>
+ <returns>A list of QueryParameter each containing the parameter name and value</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.UrlEncode(System.String)">
+ <summary>
+ This is a different Url Encode implementation since the default .NET one outputs the percent encoding in lower case.
+ While this is not a problem with the percent encoding spec, it is used in upper case throughout OAuth
+ </summary>
+ <param name="value">The value to Url encode</param>
+ <returns>Returns a Url encoded string</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.NormalizeRequestParameters(System.Collections.Generic.IList{QR_Code.OAuthBase.QueryParameter})">
+ <summary>
+ Normalizes the request parameters according to the spec
+ </summary>
+ <param name="parameters">The list of parameters already sorted</param>
+ <returns>a string representing the normalized parameters</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateSignatureBase(System.Uri,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@,System.String@)">
+ <summary>
+ Generate the signature base that is used to produce the signature
+ </summary>
+ <param name="url">The full url that needs to be signed including its non OAuth url parameters</param>
+ <param name="consumerKey">The consumer key</param>        
+ <param name="token">The token, if available. If not available pass null or an empty string</param>
+ <param name="tokenSecret">The token secret, if available. If not available pass null or an empty string</param>
+ <param name="httpMethod">The http method used. Must be a valid HTTP method verb (POST,GET,PUT, etc)</param>
+ <param name="signatureType">The signature type. To use the default values use <see cref="T:QR_Code.OAuthBase.SignatureTypes">OAuthBase.SignatureTypes</see>.</param>
+ <returns>The signature base</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateSignatureUsingHash(System.String,System.Security.Cryptography.HashAlgorithm)">
+ <summary>
+ Generate the signature value based on the given signature base and hash algorithm
+ </summary>
+ <param name="signatureBase">The signature based as produced by the GenerateSignatureBase method or by any other means</param>
+ <param name="hash">The hash algorithm used to perform the hashing. If the hashing algorithm requires initialization or a key it should be set prior to calling this method</param>
+ <returns>A base64 string of the hash value</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateSignature(System.Uri,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@,System.String@)">
+ <summary>
+ Generates a signature using the HMAC-SHA1 algorithm
+ </summary>		
+ <param name="url">The full url that needs to be signed including its non OAuth url parameters</param>
+ <param name="consumerKey">The consumer key</param>
+ <param name="consumerSecret">The consumer seceret</param>
+ <param name="token">The token, if available. If not available pass null or an empty string</param>
+ <param name="tokenSecret">The token secret, if available. If not available pass null or an empty string</param>
+ <param name="httpMethod">The http method used. Must be a valid HTTP method verb (POST,GET,PUT, etc)</param>
+ <returns>A base64 string of the hash value</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateSignature(System.Uri,System.String,System.String,System.String,System.String,System.String,System.String,System.String,QR_Code.OAuthBase.SignatureTypes,System.String@,System.String@)">
+ <summary>
+ Generates a signature using the specified signatureType 
+ </summary>		
+ <param name="url">The full url that needs to be signed including its non OAuth url parameters</param>
+ <param name="consumerKey">The consumer key</param>
+ <param name="consumerSecret">The consumer seceret</param>
+ <param name="token">The token, if available. If not available pass null or an empty string</param>
+ <param name="tokenSecret">The token secret, if available. If not available pass null or an empty string</param>
+ <param name="httpMethod">The http method used. Must be a valid HTTP method verb (POST,GET,PUT, etc)</param>
+ <param name="signatureType">The type of signature to use</param>
+ <returns>A base64 string of the hash value</returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateTimeStamp">
+ <summary>
+ Generate the timestamp for the signature        
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:QR_Code.OAuthBase.GenerateNonce">
+ <summary>
+ Generate a nonce
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QR_Code.StyleHelper.Instance">
+ <summary>
+ Singleton
+ </summary>
+ <returns>Instance of Config Class</returns>
+</member>
+</members>
+</doc>
